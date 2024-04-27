@@ -1,0 +1,107 @@
+body {
+    font-family: sans-serif;
+    background-image: url("https://img.freepik.com/premium-vector/vector-line-vector-abstract-texture-background-pink_875224-391.jpg");
+}
+nav{
+    background-color: rgb(255, 132, 152);
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+nav a{
+    
+    opacity: 0.5;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding-top: 23px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+    font-size: 20px;
+}
+nav a:hover{
+    opacity: 1;
+    background-color: white;
+}
+
+.tiktok1{
+        position: absolute;
+
+left: 50px; 
+    width: 150px;
+    height: 680px;
+}
+
+.tiktok2{
+    position: absolute;
+    right: 250px;
+    top: 480px;
+    width: 150px;
+    height: 680px;
+}
+
+.tiktok3{
+    position: absolute;
+    top: 890px;
+    left: 50px;
+    width: 150px;
+    height: 680px;
+}
+.girls{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 1560px
+}
+.boys{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 1560px;
+    margin-top:140px;   
+}
+.boys h2, .girls h2{
+    background-color: white;
+    width: 100%;
+    text-align: center;
+}
+.tiktok4{
+    position: absolute;
+    top:1600px;
+    left: 50px;
+    width: 150px;
+    height: 680px;
+}
+.tiktok6{
+    position: absolute;
+    top: 2400px;
+    left: 50px;
+    width: 150px;
+    height: 680px;
+}
+
+.tiktok5{
+    position: absolute;
+    right: 250px;
+    top: 2000px;
+    width: 150px;
+    height: 680px;  
+}
+
+.info h2{
+    background-color: white;
+    width:100%;
+    font-size: 50px;
+    text-align: center;
+}
+footer{
+    background-color: white;
+    width: 100%;
+    padding-left: 20px;
+}
+footer h3{
+    text-align: center;
+}
